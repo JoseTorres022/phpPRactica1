@@ -18,7 +18,10 @@
     $clase = "clase-h1-prueba";
     $a = 1;
     if($a==1){
-        echo "<br><h1> styel=background-color: red >si</b>"
+        echo "<br><h1 style=background-color: red >si</b>";
+        print"<br> <h1 class='".$clase."'>SI</h1>";
+    }else{
+        echo "NO";
     }
     ?>
 </body>
